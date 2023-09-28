@@ -26,3 +26,17 @@
 // Operations :
 console.log("1"+2+2);
 console.log(1+2+"2");
+
+
+
+// Comparision: 
+console.log(null>0); // false
+console.log(null == 0); // false
+console.log(null>=0); // true
+/*
+    The reason is that an equality check == and comparisions >< >= <= work differently.
+    Comparisons convert null to a number, treating it as 0.
+    That's why null>=0 is true but null>0 is false
+*/
+
+// === --> it check (value + datatype)
