@@ -18,7 +18,11 @@
 // 1 = true, 0 = false
 // "" = false , "naba" = true
 
-let randomNumber = 45;
-let stringNumer = String(randomNumber)
-console.log(stringNumer)
-console.log(typeof stringNumer);
+// let randomNumber = 45;
+// let stringNumer = String(randomNumber)
+// console.log(stringNumer)
+// console.log(typeof stringNumer);
+
+// Operations :
+console.log("1"+2+2);
+console.log(1+2+"2");
