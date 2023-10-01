@@ -26,7 +26,7 @@ const obj2 = {3: "a", 4: "b"}
 
 const obj3 = Object.assign({},obj1,obj2)
 const obj4 = {...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -47,12 +47,28 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 // all keys are stored in a array 
 // nd you can access them using a loop :)
 
 
+// De-structuring
+const course = {
+    coursename: 'Javascript',
+    price: "999",
+    Instructor: "Youtube"
+}
+const {coursename} = course
+console.log(coursename)
 
+
+
+// JSON
+// {
+//     name: "naba",
+//     course: "JavaScript",
+//     price: "free"
+// }
